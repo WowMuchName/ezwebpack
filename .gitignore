@@ -58,3 +58,5 @@ typings/
 .env
 
 test/*/dist/**/*.js
+dist/**/*.js
+dist/**/*.d.ts
