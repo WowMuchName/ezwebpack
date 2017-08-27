@@ -1,0 +1,29 @@
+{
+  "name": "ezwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test:ts": "node ./test/build-typescript.js && node ./test/typescript-lib/dist/index.js",
+    "test:js": "node ./test/build-js && node ./test/js-lib/dist/index.js",
+    "test": "npm run test:ts && npm run test:js",
+    "build": "node ./node_modules/typescript/bin/tsc"
+  },
+  "author": "mark.albert@pbforge.com",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "ts-loader": "^2.3.4"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^5.4.3",
+    "@types/chalk": "^0.4.31",
+    "@types/rimraf": "^2.0.2",
+    "@types/webpack": "^3.0.10",
+    "chalk": "^2.1.0",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.4.3",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  }
+}
