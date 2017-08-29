@@ -2,12 +2,7 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es2015",
-        "moduleResolution": "node",
-        "typeRoots": [
-            "./node_modules/@types"
-        ],
-        "declaration": true,
-        "outFile": "./dist/ezwebpack.js"
+        "moduleResolution": "node"
     },
     "include": [
         "./src/**/*"

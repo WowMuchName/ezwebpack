@@ -1,4 +1,4 @@
-class Module2 {
+export class Module2 {
     constructor(x) {
         this.x = x;
     }
